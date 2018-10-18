@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
         switch (item.getItemId()) {
             case MENU_ALPHA_ID:
                 // создаем объект анимации из файла anim/myalpha
-                anim = AnimationUtils.loadAnimation(this, R.anim. );
+                anim = AnimationUtils.loadAnimation(this, R.anim.myal);
                 break;
             case MENU_SCALE_ID:
                 anim = AnimationUtils.loadAnimation(this, R.anim.myscale);
@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
                 anim = AnimationUtils.loadAnimation(this, R.anim.myrotate);
                 break;
             case MENU_COMBO_ID:
-                anim = AnimationUtils.loadAnimation(this, R.anim.mycombo);
+                anim = AnimationUtils.loadAnimation(this, R.anim.mycom);
                 break;
         }
         // запускаем анимацию для компонента tv
