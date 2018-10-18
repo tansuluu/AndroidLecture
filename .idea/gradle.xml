@@ -28,6 +28,7 @@
             <option value="$PROJECT_DIR$/p0171_dynamiclayout2" />
             <option value="$PROJECT_DIR$/p0180constraintlayoutintro" />
             <option value="$PROJECT_DIR$/p0181_dynamiclayout3" />
+            <option value="$PROJECT_DIR$/p0191_simplecalculator" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
