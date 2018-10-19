@@ -31,6 +31,7 @@
             <option value="$PROJECT_DIR$/p0191_simplecalculator" />
             <option value="$PROJECT_DIR$/p0201_simpleanimation" />
             <option value="$PROJECT_DIR$/p0211twoactivity" />
+            <option value="$PROJECT_DIR$/p0231_oneactivitystate" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
