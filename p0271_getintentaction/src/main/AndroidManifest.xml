@@ -22,7 +22,7 @@
                 <action android:name="ru.startandroid.intent.action.showtime" />
                 <action android:name="ru.startandroid.intent.action.showdate" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
     </application>
