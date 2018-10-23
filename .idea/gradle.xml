@@ -34,6 +34,7 @@
             <option value="$PROJECT_DIR$/p0231_oneactivitystate" />
             <option value="$PROJECT_DIR$/p0241_twoactivitystate" />
             <option value="$PROJECT_DIR$/p0261_intentfilter" />
+            <option value="$PROJECT_DIR$/p0271_getintentaction" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
