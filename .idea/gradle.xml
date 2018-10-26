@@ -42,6 +42,7 @@
             <option value="$PROJECT_DIR$/p0321_simplebrowser" />
             <option value="$PROJECT_DIR$/p0331_sharedpreferences" />
             <option value="$PROJECT_DIR$/p0341_simplesqlite" />
+            <option value="$PROJECT_DIR$/p0361_sqlitequery" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
