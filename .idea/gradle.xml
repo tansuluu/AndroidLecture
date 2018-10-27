@@ -45,6 +45,7 @@
             <option value="$PROJECT_DIR$/p0361_sqlitequery" />
             <option value="$PROJECT_DIR$/p0371_sqliteinnerjoin" />
             <option value="$PROJECT_DIR$/p0381_sqlitetransaction" />
+            <option value="$PROJECT_DIR$/p0401_layoutinflater" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
