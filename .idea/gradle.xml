@@ -48,6 +48,8 @@
             <option value="$PROJECT_DIR$/p0401_layoutinflater" />
             <option value="$PROJECT_DIR$/p0411_layoutinflaterlist" />
             <option value="$PROJECT_DIR$/p0411_layoutinflaterlist2" />
+            <option value="$PROJECT_DIR$/p0421_simplelist" />
+            <option value="$PROJECT_DIR$/p0431_simplelistchoice" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
