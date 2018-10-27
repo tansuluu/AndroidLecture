@@ -100,6 +100,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Log.d(LOG_TAG, "All records");
                 c = db.query("mytable", null, null, null, null, null, null);
                 break;
+            case R.id.btnFunc:
+                Log.d(LOG_TAG, "--- Функция " + sFunc + " ---");
+                columns = new String[] { sFunc };
+                c = db.query("mytable", columns, null, null, null, null, null);
+                break;
             case R.id.btnPeople:
                 Log.d(LOG_TAG, "--- Население больше " + sPeople + " ---");
                 selection = "people > ?";
