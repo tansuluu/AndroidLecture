@@ -33,18 +33,53 @@ public class MainActivity extends AppCompatActivity {
 //        dbh.close();
 //    }
 
+//    void myActions() {
+//        db = dbh.getWritableDatabase();
+//        delete(db, "mytable");
+//        db.beginTransaction();
+//        insert(db, "mytable", "val1");
+//        db.setTransactionSuccessful();
+//        insert(db, "mytable", "val2");
+//        db.endTransaction();
+//        insert(db, "mytable", "val3");
+//        read(db, "mytable");
+//        dbh.close();
+//    }
+//void myActions() {
+//    try {
+//        db = dbh.getWritableDatabase();
+//        delete(db, "mytable");
+//
+//        db.beginTransaction();
+//        insert(db, "mytable", "val1");
+//
+//        Log.d(LOG_TAG, "create DBHelper");
+//        DBHelper dbh2 = new DBHelper(this);
+//        Log.d(LOG_TAG, "get db");
+//        SQLiteDatabase db2 = dbh2.getWritableDatabase();
+//        read(db2, "mytable");
+//        dbh2.close();
+//
+//        db.setTransactionSuccessful();
+//        db.endTransaction();
+//
+//        read(db, "mytable");
+//        dbh.close();
+//
+//    } catch (Exception ex) {
+//        Log.d(LOG_TAG, ex.getClass() + " error: " + ex.getMessage());
+//    }
+//}
+
     void myActions() {
         db = dbh.getWritableDatabase();
-        delete(db, "mytable");
-        db.beginTransaction();
-        insert(db, "mytable", "val1");
-        db.setTransactionSuccessful();
-        insert(db, "mytable", "val2");
-        db.endTransaction();
-        insert(db, "mytable", "val3");
-        read(db, "mytable");
-        dbh.close();
+        SQLiteDatabase db2 = dbh.getWritableDatabase();
+        Log.d(LOG_TAG, "db = db2 - " + db.equals(db2));
+        Log.d(LOG_TAG, "db open - " + db.isOpen() + ", db2 open - " + db2.isOpen());
+        db2.close();
+        Log.d(LOG_TAG, "db open - " + db.isOpen() + ", db2 open - " + db2.isOpen());
     }
+
 
     void insert(SQLiteDatabase db, String table, String value) {
         Log.d(LOG_TAG, "Insert in table " + table + " value = " + value);
