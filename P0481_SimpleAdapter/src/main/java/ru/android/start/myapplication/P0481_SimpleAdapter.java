@@ -39,8 +39,10 @@ public class P0481_SimpleAdapter extends AppCompatActivity {
         }
 
         String[] from = { ATTRIBUTE_NAME_TEXT, ATTRIBUTE_NAME_CHECKED,
-                ATTRIBUTE_NAME_IMAGE };
-        int[] to = { R.id.tvText, R.id.cbChecked, R.id.ivImg };
+                ATTRIBUTE_NAME_IMAGE, ATTRIBUTE_NAME_TEXT };
+
+// массив ID View-компонентов, в которые будут вставлять данные
+        int[] to = { R.id.tvText, R.id.cbChecked, R.id.ivImg, R.id.cbChecked };
 
         SimpleAdapter sAdapter = new SimpleAdapter(this, data, R.layout.item,
                 from, to);
