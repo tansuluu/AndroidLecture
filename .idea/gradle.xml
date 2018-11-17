@@ -60,6 +60,7 @@
             <option value="$PROJECT_DIR$/p0501_simpleadaptercustom2" />
             <option value="$PROJECT_DIR$/p0511_simpleadapterdata" />
             <option value="$PROJECT_DIR$/p0521_simplecursoradapte" />
+            <option value="$PROJECT_DIR$/p0531_simplecursortreeadapter" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
