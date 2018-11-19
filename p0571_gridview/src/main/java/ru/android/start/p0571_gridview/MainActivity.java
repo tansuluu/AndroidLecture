@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void adjustGridView() {
         gvMain.setNumColumns(GridView.AUTO_FIT);
-        gvMain.setColumnWidth(80);
+        gvMain.setColumnWidth(180);
         gvMain.setVerticalSpacing(5);
         gvMain.setHorizontalSpacing(5);
         gvMain.setStretchMode(GridView.NO_STRETCH);
