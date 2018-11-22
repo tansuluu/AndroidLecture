@@ -1,1 +1,1 @@
-include ':app', ':p0601_alertdialogsimple'
+include ':app', ':p0601_alertdialogsimple', ':p0611_alertdialogprepare'
